@@ -2,7 +2,7 @@ import requests
 
 async def main(q):
 	url = 'http://api.apixu.com/v1/current.json'
-	payload = {'key': '595d5646dcb847f8a9e132542170308', 'q': ''}
+	payload = {'key': '', 'q': ''}
 	payload['q'] = q
 	r = requests.get(url, params=payload, timeout=10)
 	response = r.json()
