@@ -1,8 +1,8 @@
 import praw
 import random
 
-reddit = praw.Reddit(client_id='JJrbtPLCsJtlUg',
-					 client_secret='vG5yd1MZU-3IQydAlRJFd-Bmdt4',
+reddit = praw.Reddit(client_id='',
+					 client_secret='',
 					 user_agent='windows:voltbot:v1.0 (by /u/Volt69)')
 
 time_filters = ['week','month','year', 'all']
