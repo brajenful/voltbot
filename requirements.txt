@@ -1,0 +1,8 @@
+python-twitch-client
+praw
+spotipy
+wikipedia
+discord
+serial
+geocoder
+forecastiopy
