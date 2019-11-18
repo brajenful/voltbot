@@ -4,8 +4,8 @@ import geopy
 class Weather(object):
 
 	def __init__(self, address:str):
-		self.darksky_api_key = 'dd1473466769051ef1c08eb24e7946fd'
-		self.geopy_username = 'brajenful'
+		self.darksky_api_key = ''
+		self.geopy_username = ''
 
 		self.address = address
 		self.output = {}
